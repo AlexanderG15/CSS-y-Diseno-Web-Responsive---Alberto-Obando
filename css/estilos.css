@@ -1,0 +1,128 @@
+#head{
+	background-color: #5b7989;
+	text-shadow: 2px 2px 2px #02010a;
+	color: #ffffff;
+	max-width: 900px;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	font-size: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding-top: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	animation: Entrada2 1s;
+}
+@-webkit-keyframes Entrada2{
+	  from{
+		  margin-top: 150%;
+	  }
+	  to{
+				   
+	  }
+  }
+#menudesktop{
+    background-color: #5b7989;
+	text-shadow: 2px 2px 2px #02010a;
+	color: #ffffff;
+	max-width: 900px;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding-top: 20px;
+	padding-left: 20px;
+	border-radius: 10px;
+	margin-top:10px;
+	box-sizing: border-box;
+}
+a{
+    text-decoration:none; 
+	font-size: 21px;
+	color: #ffffff;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+#imagen{
+	background-color: #82c3a6;
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+#contenedor{
+	background-color: #d5c75f ;
+	display:flex;
+	flex-direction: row;	
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px #000000;
+}
+#image2{
+	flex-grow:1;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 425px;
+	width: 100%;
+}
+#image2 :hover{
+	transform: rotate(10deg);
+	border 2px;
+	box-shadow: 4px 4px 4px #82c3a6;
+	transition-duration: 2s;
+}
+#image3{
+	flex-grow:1;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 425px;
+	width: 100%;
+}
+#image3 :hover{
+	transform:translate(20px, -5px);
+	border 2px;
+	box-shadow: 4px 4px 4px #82c3a6;
+	transition-duration: 2s;
+}
+#pie{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #C6d5c5;
+	margin-top: 10px;
+	max-width: 900px;
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	margin: 0  auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#columnas4{
+	flex-grow:1;
+}
+#trescolumnas{
+	flex-grow:1;
+}
+.blur{
+	-webkit-filter: blur(10px);
+}
+.grises{
+	-webkit-filter: grayscale(100%)
+}
+.sepia{
+	-webkit-filter: sepia(90%);
+}
+
+@media screen and (max-width:767px) {
+    #contenedor{width: 100%;flex-direction: column;}
+    #pie{width: 100%;flex-direction: column;}
+	#image2{padding: 0px;}
+	#image2{padding: 0px;}
+}
+
+
+
